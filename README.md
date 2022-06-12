@@ -1,7 +1,18 @@
 # Image Classification using AlexNet CNN
-<img alt="Tensorflow" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E](https://www.gstatic.com/devrel-devsite/prod/v4c1e9ea53f4457a5de1027b4eeb4608c1000a427e20261ba1771dd3fc26d5df8/tensorflow/images/lockup.svg)"/>
-<img alt="Python" src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://www.python.org/static/img/python-logo@2x.png)"/>
-<img alt="Keras" src=	"https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white](https://keras.io/img/logo.png)"/>
-<img alt="OpenCV" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.osetc.com%2Fen%2Fwp-content%2Fuploads%2F2019%2F03%2Finstall-opencv1.gif&imgrefurl=https%3A%2F%2Fwww.osetc.com%2Fen%2Fhow-to-install-opencv-cv2-on-ubuntu-16-04-18-04.html&tbnid=FaoCxGxcA395TM&vet=12ahUKEwj7ud7uzqj4AhWyk9gFHbgsAXAQMygJegUIARCpAQ..i&docid=_xKfG6RcHnnbLM&w=936&h=349&q=open%20cv2%20python&ved=2ahUKEwj7ud7uzqj4AhWyk9gFHbgsAXAQMygJegUIARCpAQ)"/>
-<img alt="MatplotLib" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white](https://matplotlib.org/stable/tutorials/introductory/pyplot.html)"/>
+<img alt="Tensorflow" src="https://www.gstatic.com/devrel-devsite/prod/v4c1e9ea53f4457a5de1027b4eeb4608c1000a427e20261ba1771dd3fc26d5df8/tensorflow/images/lockup.svg" width="200px" height="100px"/>
+<img alt="Python" src="https://www.python.org/static/img/python-logo@2x.png" width="200px" height="70px"/>
+<img alt="Keras" src=	"https://keras.io/img/logo.png" width="200px" height="60px"/>
+<img alt="OpenCV" src="https://www.osetc.com/en/wp-content/uploads/2019/03/install-opencv1.gif" width="200px" height="80px"/>
 
+<h1><b>Problem Statement</b></h1>
+<hr />
+<i>PPG Dataset of 219 people is given, use any of the DNNs to classify the 2D images of the spectograms acquired from the given data.</i>
+<hr />
+<h3>Task:</h3>
+<hr />
+Convert the signal obtained from samples into 2-D spectrograms and classify the obtained images using pre-trained CNN models (like Alexnet, Resnet, Mobilenet etc.).
+<hr />
+
+### The CNN (Convolutional Neural Network) used in this project is called <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a>.
+
+Given data was a ".mat" file, which had 1 x 6303 for 619 cells. We first used this file to acquire .csv file of the data.  
