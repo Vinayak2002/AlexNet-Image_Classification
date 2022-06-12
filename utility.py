@@ -1,10 +1,14 @@
-import os
 import cv2
-import numpy as np
 import tensorflow as tf
 
 
 def process_image(image, label):
+    """
+    Processes image to 64 x 64 pixels.
+    :param image: Image
+    :param label: Labels
+    :return: Processed Image
+    """
     image = tf.image.per_image_standardization(image)
     image = tf.image.resize(image, (64, 64))
 
@@ -12,6 +16,12 @@ def process_image(image, label):
 
 
 def split_data(data, labels):
+    """
+    Split data into training and testing sets
+    :param data: Data set list
+    :param labels: Label Set list
+    :return: Spilted data (training, testing)
+    """
     n = int(0.16 * len(labels))
     testing_data = data[:n]
     testing_labels = labels[:n]
@@ -19,7 +29,7 @@ def split_data(data, labels):
     training_labels = labels[n:]
     assert len(testing_labels) == len(testing_data)
     assert len(training_labels) == len(training_data)
-    return training_data, training_labels, testing_data, testing_labels
+    return (training_data, training_labels), (testing_data, testing_labels)
 
 
 def load(image_paths, verbose=-1):
@@ -49,8 +59,7 @@ def load(image_paths, verbose=-1):
         label = image_path.split('/')[-1][0]
         # print(label)
 
-        # Scale the Image to [0, 1] and add to list
-        # data.append(image / 255)
+        # data.append(image)
         data.append(image)
         labels.append(int(label))
 
