@@ -19,3 +19,52 @@ Convert the signal obtained from samples into 2-D spectrograms and classify the 
 ### The CNN (Convolutional Neural Network) used in this project is called <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a>.
 
 # Methodology
+
+* Given PPG Signal -
+<p align ="center" >
+<img  width="700" src="https://github.com/Vinayak2002/AlexNet-Image_Classification/blob/main/images/PPG.png">
+</p>
+
+* PPG Signal Processing -
+<p align ="center" >
+<img  width="700" src="https://github.com/Vinayak2002/AlexNet-Image_Classification/blob/main/images/PPPG.png">
+</p>
+
+* Sectioning of PPG signal for data balancing -
+<p align ="center" >
+<img  width="700" src="https://github.com/Vinayak2002/AlexNet-Image_Classification/blob/main/images/SPPG.png">
+</p>
+
+* Spectogram of Sectioned Signal -
+<p align ="center" >
+<img  width="700" src="https://github.com/Vinayak2002/AlexNet-Image_Classification/blob/main/images/2image31.png">
+</p>
+
+* Normal Condition Spectogram -
+<p align ="center" >
+<img  width="700" src="https://github.com/Vinayak2002/AlexNet-Image_Classification/blob/main/images/0image10.png">
+</p>
+
+* Prehyptersion Condition Spectogram -
+<p align ="center" >
+<img  width="700" src="https://github.com/Vinayak2002/AlexNet-Image_Classification/blob/main/images/1image132.png">
+</p>
+
+* Stage-1 Hypertension Spectogram -
+<p align ="center" >
+<img  width="700" src="https://github.com/Vinayak2002/AlexNet-Image_Classification/blob/main/images/2image31.png">
+</p>
+
+* Stage-2 Hypertension Spectogram -
+<p align ="center" >
+<img  width="700" src="https://github.com/Vinayak2002/AlexNet-Image_Classification/blob/main/images/2image31.png">
+</p>
+
+<hr />
+The spectogram dataset is then used for training and testing of the CNN model.
+The model got overfitted since the data size was not adequate. The dataset was custom, and still being updated.
+<hr />
+* Results -
+<p align ="center" >
+<img  width="700" src="https://github.com/Vinayak2002/AlexNet-Image_Classification/blob/main/images/Result.png">
+</p>
