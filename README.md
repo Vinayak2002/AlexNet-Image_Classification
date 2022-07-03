@@ -18,3 +18,4 @@ Convert the signal obtained from samples into 2-D spectrograms and classify the 
 
 ### The CNN (Convolutional Neural Network) used in this project is called <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a>.
 
+# Methodology
