@@ -1,8 +1,11 @@
 # Image Classification using AlexNet CNN
-<img alt="Tensorflow" src="https://www.gstatic.com/devrel-devsite/prod/v4c1e9ea53f4457a5de1027b4eeb4608c1000a427e20261ba1771dd3fc26d5df8/tensorflow/images/lockup.svg" width="200px" height="100px"/>
-<img alt="Python" src="https://www.python.org/static/img/python-logo@2x.png" width="200px" height="70px"/>
-<img alt="Keras" src=	"https://keras.io/img/logo.png" width="200px" height="60px"/>
-<img alt="OpenCV" src="https://www.osetc.com/en/wp-content/uploads/2019/03/install-opencv1.gif" width="200px" height="80px"/>
+
+# Technologies Used:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) <br />
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)  <br />
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) <br />
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) <br />
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) <hr />
 
 <h1><b>Problem Statement</b></h1>
 <hr />
